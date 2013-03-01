@@ -47,6 +47,6 @@ if (isset($_GET['lng']) && isset($_GET['lat'])) {
 
 function rateLimitReached()
 {
-    echo "{'error':'Rate Limit Hit'}";
+    echo '{"error":"Rate Limit Hit"}';
     exit;
 }
